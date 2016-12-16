@@ -1,0 +1,29 @@
+.contenedor-cuadrado iframe{
+	height: 300px;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.espacio-arriba {
+	padding-top: 10px;
+}
+
+.mail2 {
+	margin-top: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+.telefono {
+	max-width: 100px;
+	font-size: 0.35em;
+	padding-left: 10px;
+	margin-top: 20px;
+}
+
+span.num-tel {
+	display: block;
+	margin-top: -5px;
+}

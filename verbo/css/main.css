@@ -115,8 +115,6 @@ span.subtitulo {
     /*visibility: hidden;*/
 }
 
-
-
 .secondary {
 	width: 30%;
 	margin-top: 20px;
@@ -124,21 +122,6 @@ span.subtitulo {
 	max-width: 30%;
 }
 
-
-
 .img-noright {
 	margin-right: 4.46%;
-}
-
-/*Llevar al css de contacto*/
-.contenedor-cuadrado iframe{
-	margin: 10%;
-	height: 300px;
-	width: 400px;
-}
-
-.espacio-arriba {
-	margin-top: 15%;
-	margin-left: 35%;
-	margin-right: 35%;
 }
