@@ -1,0 +1,84 @@
+.bloque1 {
+	margin-top: 30px;
+}
+
+.bloque-parrafos {
+	width: 70%;
+	display: inline-block;
+	float: left;
+	font-size: 1.2em;
+	padding: 0px 0px 0px 15px;
+}
+
+.bloque-parrafos h1 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+.bloque-parrafos span {
+	display: block;
+	font-size: 1.3em;
+}
+
+.info {
+	font-size: 0.9em !important;
+	font-style: italic;
+	padding-top: -5px;
+	font-weight: normal !important;
+}
+
+.urbanos {
+	padding-top: 20px;
+}
+
+.casas {
+	width: 30%;
+	display: inline-block;
+}
+
+hr {
+	clear: both;
+	background-color: black;
+	height: 2px;
+	margin: 75px 15px 75px 15px;
+}
+
+.cv span {
+	display: block;
+	font-weight: bold;
+}
+
+.titulo {
+	padding-bottom: 10px;
+}
+
+.bloque-derecha {
+	display: inline-block;
+	width: 52%;
+	float: left;
+	padding-bottom: 75px;
+	padding-left: 15px;
+}
+
+.proyectos {
+	display: block;
+	margin-bottom: 25px;
+}
+
+.reconocimientos {
+	display: block;
+}
+
+.conferencias {
+	display: inline-block;
+	float: right;
+	width: 45%;
+}
+
+.clientes {
+	clear: both;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
