@@ -1,0 +1,36 @@
+.contenedor-cuadrado {
+	text-align: center;
+}
+
+.info {
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.info span {
+	display: block;
+}
+
+
+.contenedor-cuadrado iframe{
+	height: 300px;
+	width: 80%;
+	margin: 20px 10px 20px 10px;
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+}
+
+.mail2 {
+	font-weight: bold;
+}
+
+.telefono {
+	font-size: 0.4em;
+	padding: 10px 0px 0px 10px;
+}
+
+.telefono span {
+	display: block;
+}

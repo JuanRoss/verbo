@@ -1,0 +1,184 @@
+@font-face {
+	font-family: 'Gotham';
+	font-style: normal;
+	font-weight: normal;
+	src: url(../fuentes/GOTHAM-BOOK.OTF) format('opentype');
+}
+
+@font-face {
+	font-family: 'Minion-pro';
+	font-style: italic;
+	font-weight: bold;
+	src: url(../fuentes/MINIONPRO-SEMIBOLDIT.OTF) format('opentype');
+}
+
+img{
+	max-width: 100%;
+}
+
+body{
+	background-color: white;
+	font-family: 'Gotham', serif;
+	font-size: 14px;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+}
+
+a{
+	color: #000000;
+}
+
+nav ul li a{
+	font-size: 1em;
+}
+
+.minion {
+	font-family: 'Minion-pro', serif;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+.borde {
+	border: 1px solid black;
+}
+
+.pequeño{
+	font-size: 0.4em !important;
+}
+.mediano{
+	font-size: 0.6em !important;
+}
+.grande{
+	font-size: 0.8em !important;
+}
+
+
+.contenedorLogo {
+	display: inline-block;
+	float: left;
+}
+
+.barraIzquierda {
+	width: 20%;
+	float: left;
+	display: inline-block;
+	padding-left: 60px;
+	padding-top: 40px;
+}
+
+.logo img {
+	height:75%;
+	width:75%;
+}
+
+.bloque-texto {
+	padding-top: 30px;
+	font-size: 2.5em;
+}
+
+.bloque-texto h1 {
+	margin-top: -1px;
+	clear: both;
+	padding-left: 10px;
+	display: block;
+}
+
+.bloque-texto h2, .bloque-texto h3 {
+	margin-top: -10px;
+	padding-left: 10px;
+	display: block;
+}
+
+.direccion {
+	margin-top: 20px;
+	font-size: 0.4em;
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+
+.direccion span {
+	display: block;
+	float: left;
+	margin-top: -4px;
+}
+
+.mail {
+	clear: both;
+	font-weight: bold;
+}
+
+.container {
+	width: 75%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	padding-top: 50px;
+}
+
+nav.navegacion {
+	display: inline-block;
+	width: 75%;
+	padding-left: 25px;
+}
+
+.no-lista{
+	margin: 0px;
+	padding: 0px;
+}
+
+.no-lista li {
+	float: none;
+	display: inline-block;
+	margin: 0% 2% 0% 0%;
+}
+
+.social {
+	width: 20%;
+	display: inline-block;
+	margin-top: 15px;
+	margin: 0px -4px -4px -2px;
+
+}
+
+.social li {
+	width: 25%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+	margin-right: -6px;
+}
+
+.social li img {
+	height: 70%;
+	width: 70%;
+}
+
+.titulo-pagina {
+	font-weight: bold;
+}
+
+.subtitulo-pagina {
+	font-size: 1em;
+	margin-top: -10px;
+}
+
+.main-photo {
+	padding: 15px 15px 0px 15px;
+	text-align: center;
+}
+
+.main-photo img {
+	width: 100%;
+	height: 100%;
+}
+
+.principal p {
+	text-align: center;
+	font-size: 1.3em;
+	padding: 30px 0px 15px 15px;	
+}
