@@ -16,6 +16,7 @@ img{
 	max-width: 100%;
 }
 
+
 body{
 	background-color: white;
 	font-family: 'Gotham', serif;
@@ -116,7 +117,7 @@ nav ul li a{
 	width: 75%;
 	height: 100%;
 	display: inline-block;
-	float: left;
+	/*float: left;*/
 	padding-top: 50px;
 }
 
@@ -124,6 +125,10 @@ nav.navegacion {
 	display: inline-block;
 	width: 75%;
 	padding-left: 25px;
+}
+
+.menu-social {
+	background-color: white;
 }
 
 .no-lista{
@@ -160,11 +165,13 @@ nav.navegacion {
 
 .titulo-pagina {
 	font-weight: bold;
+	margin-top: 40px;
 }
 
 .subtitulo-pagina {
 	font-size: 1em;
-	margin-top: -10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
 .main-photo {
@@ -181,4 +188,13 @@ nav.navegacion {
 	text-align: center;
 	font-size: 1.3em;
 	padding: 30px 0px 15px 15px;	
+}
+
+.fixed {
+	position:fixed;
+	top:0;
+	    /*padding: 2em;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);*/
 }
