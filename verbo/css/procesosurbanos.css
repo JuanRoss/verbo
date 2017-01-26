@@ -51,6 +51,7 @@ p.animated-text {
 span.titulo {
 	float: left;
 	font-weight: bold;
+	line-height: 1;
 	width: 100%;
 	display: block;
 	text-align: center;

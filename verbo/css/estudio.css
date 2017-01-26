@@ -23,8 +23,9 @@
 .info {
 	font-size: 0.9em !important;
 	font-style: italic;
-	padding-top: -5px;
+	margin-top: -8px;
 	font-weight: normal !important;
+	margin-bottom: 10px;
 }
 
 .urbanos {
@@ -50,6 +51,7 @@ hr {
 
 .titulo {
 	padding-bottom: 10px;
+	font-size: 1.3em;
 }
 
 .bloque-derecha {
@@ -62,7 +64,7 @@ hr {
 
 .proyectos {
 	display: block;
-	margin-bottom: 25px;
+	margin-bottom: 35px;
 }
 
 .reconocimientos {
@@ -80,5 +82,12 @@ hr {
 	display: block;
 	width: 100%;
 	text-align: center;
+}
+
+.foto {
+	width: 85%;
+	height: 85%;
+	display: block;
+	margin: 30px auto;
 }
 

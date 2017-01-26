@@ -49,7 +49,7 @@ nav ul li a{
 }
 
 .pequeño{
-	font-size: 0.4em !important;
+	font-size: 0.35em !important;
 }
 .mediano{
 	font-size: 0.6em !important;
@@ -69,12 +69,12 @@ nav ul li a{
 	float: left;
 	display: inline-block;
 	padding-left: 60px;
-	padding-top: 40px;
+	padding-top: 35px;
 }
 
 .logo img {
-	height:75%;
-	width:75%;
+	height:70%;
+	width:70%;
 }
 
 .bloque-texto {
@@ -97,7 +97,7 @@ nav ul li a{
 
 .direccion {
 	margin-top: 20px;
-	font-size: 0.4em;
+	font-size: 0.35em;
 	padding-left: 10px;
 	padding-bottom: 30px;
 }
@@ -117,13 +117,13 @@ nav ul li a{
 	width: 75%;
 	height: 100%;
 	display: inline-block;
-	/*float: left;*/
+	float: left;
 	padding-top: 50px;
 }
 
 nav.navegacion {
 	display: inline-block;
-	width: 75%;
+	width: 80%;
 	padding-left: 25px;
 }
 
@@ -139,15 +139,16 @@ nav.navegacion {
 .no-lista li {
 	float: none;
 	display: inline-block;
-	margin: 0% 2% 0% 0%;
+	margin: 0% 3% 0% 0%;
+
 }
 
 .social {
-	width: 20%;
+	width: 18%;
 	display: inline-block;
 	margin-top: 15px;
-	margin: 0px -4px -4px -2px;
-
+	margin: 0px 4px -4px -2px;
+	float:right;
 }
 
 .social li {
@@ -169,7 +170,7 @@ nav.navegacion {
 }
 
 .subtitulo-pagina {
-	font-size: 1em;
+	font-size: 1.2em;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
