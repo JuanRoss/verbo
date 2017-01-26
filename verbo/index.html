@@ -33,7 +33,7 @@
 			<h3 class="pequeño">PROCESOS URBANOS</h3>
 			<div class="direccion">
 				<span>C/ Verónicas, 10, Bajo</span>
-				<span class="mail">info@verboestudio.es</span>
+				<span class="mail">info@verboestudio.com</span>
 			</div>
 			<div class="direccion espacio-arriba">
 				<span>+34 650635670</span>
@@ -76,7 +76,7 @@
 			</li>		
 		</ul>
 		<section>
-			<div class="slider">
+			<div id="slider" class="slider">
 				<div>
 					<a href="proyectos/procesosurbanos/brochas.html">
 					<figure class="figure-text">
@@ -131,14 +131,12 @@
 				</div>
 			</div>
 		</section>
+		<span class="cabecera-noticias">NOTICIAS</span>
 		<p class="pie-slider minion">VERBO es Arquitectura y todos los procesos que se van sucediendo en el día a día de la ciudad. Buscamos las mejores soluciones espaciales y urbanas para mejorar la calidad vital de las personas a través de nuestros proyectos.</p>
 		<div class="noticias">
-			<span class="cabecera-noticias">NOTICIAS</span>
-			<div>
-				<a href=""><span class="minion">Una nueva plaza en Murcia/</span> Octubre 2017</a>
-				<a href=""><span class="minion">INAUGURACIÓN expo/</span>Abril 2017</a>
-				<a href=""><span class="minion">La nueva reforma va tomando forma/</span>Marzo 2017</a>
-			</div>
+			<a href=""><span class="minion">Una nueva plaza en Murcia/</span> Octubre 2017</a>
+			<a href=""><span class="minion">INAUGURACIÓN expo/</span>Abril 2017</a>
+			<a href=""><span class="minion">La nueva reforma va tomando forma/</span>Marzo 2017</a>
 		</div>
 	</div>
   	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
@@ -147,7 +145,17 @@
   		setTimeout(function() { 
   				document.getElementById("animacion").className = document.getElementById("animacion").className.replace(/\bvisible\b/, '');
   				document.getElementById("animacion").className += " invisible"; }, 4000);
-	    $(document).on('ready', loadSlider(".slider"));
+	    
+	    $(document).ready(loadSlider(".slider"));
+	    $(document).ready(function() {
+	    	$( "#slider" ).hover(function(){
+	    		$( ".slick-prev" ).css("visibility", "visible");
+	    		$( ".slick-next" ).css("visibility", "visible");
+	    	}, function() {
+	    		$( ".slick-prev" ).css("visibility", "hidden");
+	    		$( ".slick-next" ).css("visibility", "hidden");
+	    	});
+	    });
 	</script>
 </body>
 </html>
