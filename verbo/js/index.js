@@ -10,3 +10,13 @@ function loadSlider(elemento) {
 		appendArrows: $(".slider")
 	});
 }
+
+function preparaParrafo(imagen, parrafo) {
+	$(imagen).hover(function(){
+	   	$(parrafo).removeClass("invisible");
+	    $(parrafo).addClass("visible");
+	}, function() {
+    	$(parrafo).addClass("invisible");
+    	$(parrafo).removeClass("visible");
+	});
+}
