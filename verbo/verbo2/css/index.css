@@ -1,0 +1,165 @@
+.logoMain {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: white;
+}
+
+.visible {
+	z-index: 100;
+	opacity: 1;
+}
+
+.invisible {
+	z-index: 0;
+	opacity: 0;
+}
+
+.logoFade {
+	text-align: center;
+	height: 30%;
+	width: 30%;
+	padding-top: 15%;
+}
+
+.slider {
+	padding: 25px 25px 0px 25px;
+}
+
+.table {
+	display: table;
+}
+
+figure.figure-text {
+	overflow: hidden;
+	position: relative;
+}
+
+img.foto {
+	height: auto;
+	max-width: 100%;
+	-webkit-transition: all 500ms;
+	-moz-transition: all 500ms;
+	transition: all 500ms;
+}
+
+figcaption.text-over-pic {
+	background: rgba(0,0,0,0.5);
+	
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	-webkit-transition: all 300ms;
+	-moz-transition: all 300ms;
+	transition: all 300ms;
+	-webkit-transition-delay: 100ms;
+	-moz-transition-delay: 100ms;
+	transition-delay: 100ms;
+	z-index: 100;
+}
+
+p.animated-text {
+	font-size: 3.5em;
+	color: white;
+	position: absolute;
+	top: 20%;
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+	text-align: center;
+}
+
+span.titulo {
+	float: left;
+	font-weight: bold;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+span.subtitulo {
+	display: block;
+	width: auto;
+	text-align: center;
+	bottom: -10px;
+	min-width: 50px;
+
+}
+
+.slider figure:hover figcaption {
+	opacity: 1;
+}
+
+
+.slider figure:hover figcaption p {
+	-moz-transform: translateY(40px);
+	-webkit-transform: translateY(40px);
+	transform: translateY(40px);
+}
+
+.slick-prev {
+    left: 30px !important;
+    z-index: 1 !important;
+    visibility: hidden;
+}
+
+.slider figure:hover .slick-prev {
+	visibility: visible;
+}
+
+.slider figure:hover .slick-next {
+	visibility: visible;
+}
+
+.slick-next {
+    right: 30px !important;
+    visibility: hidden;
+}
+
+.cabecera-noticias {
+	display: block;
+	text-align: right;
+	width: 100%;
+	font-weight: bold;
+	padding-right: 30px;
+	padding-top: 15px;
+}
+
+.pie-slider {
+	display: block;
+	float: left;
+	width: 69%;
+	padding-left: 25px;
+	padding-right: 50px;
+	font-size: 1.2em;
+}
+
+.noticias {
+	display: block;
+	width: 30%;
+	float: left;
+	padding-right: 25px;
+	padding-top: 4px;
+	display: inline-block;
+}
+
+.noticias a {
+	display: block;
+	float: right;
+	font-style: italic;
+	margin-bottom: 5px;
+	font-size: 0.85em;
+}
