@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../../css/proyectos.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-	<script type="application/javascript" src="js/main.js"></script>
+	<script src="../../lib/jquery-2.1.0.min.js"></script>	
+	<script src="../../src/js/jquery.swipebox.js"></script>
+	<link rel="stylesheet" href="../../src/css/swipebox.css">
 	<title>Verbo Estudio</title>
 </head>
 <body>
@@ -30,8 +30,8 @@
 				<span class="mail">info@verboestudio.com</span>
 			</div>
 			<div class="direccion espacio-arriba">
-				<span>+34 650635670</span>
 				<span>+34 609116386</span>
+				<span>+34 650635670</span>
 			</div>
 		</div>
 	</aside>
@@ -107,36 +107,62 @@
 				<span class="linea doble negrita">¿Propuesta?</span>
 					Introducir una calle interior, donde los recorridos se van hilando uno tras otro y haciendo el flujo de personas lo que es, un espacio vivo y utilizable. Esta llevará a los viandantes a las diferentes cotas de la propuesta, tanto en horizontal como en vertical. Los espacios propuestos para la calderería, los accesos desde el espacio urbano a las viviendas, lo común, el corredor, las azoteas posibles, el interior de manzana… todos serán objeto de una simbiosis con el recorrido propuesto a través de esta alternativa urbana interior. Entendemos calle, como el eje conector de todas estas posibilidades sociales, que aportará la comunicación necesaria para llenar de vitalidad a los espacios que se generan.
 			</p>	
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/6.jpg"/>
-			</figure>	
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/7.jpg"/>
-			</figure>
-
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/8.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/9.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/11.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/12.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/18.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/19.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/mudanza/21.jpg"/>
-			</figure>			
+			<div class="container-foto-min">
+				<figure>
+					<a href="../../img/proyectos/mudanza/6.jpg" class="diapositiva">
+					<img class="foto-min" src="../../img/proyectos/mudanza/6.jpg"/>
+					</a>
+				</figure>	
+				<figure>
+					<a href="../../img/proyectos/mudanza/7.jpg" class="diapositiva">
+					<img class="foto-min-der" src="../../img/proyectos/mudanza/7.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/mudanza/8.jpg" class="diapositiva">
+					<img class="foto-min" src="../../img/proyectos/mudanza/8.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/mudanza/9.jpg" class="diapositiva">
+					<img class="foto-min-der" src="../../img/proyectos/mudanza/9.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/mudanza/11.jpg" class="diapositiva">
+					<img class="foto-min" src="../../img/proyectos/mudanza/11.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/mudanza/12.jpg" class="diapositiva">
+					<img class="foto-min-der" src="../../img/proyectos/mudanza/12.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="" class="diapositiva">
+					<img class="foto-min" src="../../img/proyectos/mudanza/18.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/mudanza/18.jpg" class="diapositiva">
+					<img class="foto-min-der" src="../../img/proyectos/mudanza/19.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/mudanza/21.jpg" class="diapositiva">
+					<img class="foto-min-center" src="../../img/proyectos/mudanza/21.jpg"/>
+					</a>
+				</figure>	
+			</div>		
 		</section>
 	</div>
+	<script type="text/javascript">
+		;( function( $ ) {
+
+			$( '.diapositiva' ).swipebox();
+
+		} )( jQuery );
+	</script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script>
 	posicionarMenu();
@@ -164,8 +190,6 @@
         	$('.barraIzquierda').removeClass('fixed');
         	$('.barraIzquierda').css('margin-top', '0');
     	}
-
-
 	}
 
 	</script>	

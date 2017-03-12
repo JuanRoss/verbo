@@ -24,10 +24,29 @@
 }
 
 .foto-min {
-	width: 45%;
+	width: 48%;
 	height: 45%;
 	float: left;
-	margin: 2%;
+	margin: 0 1% 2% 0;
+}
+
+.foto-min-der {
+	width: 48%;
+	height: 45%;
+	float: left;
+	margin: 0 0 2% 1%;
+}
+
+.foto-min-center {
+	width: 48%;
+	height: 45%;
+	float: left;
+	margin-left: 25%;
+}
+
+.container-foto-min {
+	width: 80%;
+	margin: 30px auto;
 }
 
 .rojo {

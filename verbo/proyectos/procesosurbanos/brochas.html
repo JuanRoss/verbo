@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../../css/proyectos.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-	<script type="application/javascript" src="js/main.js"></script>
+	<script src="../../lib/jquery-2.1.0.min.js"></script>	
+	<script src="../../src/js/jquery.swipebox.js"></script>
+	<link rel="stylesheet" href="../../src/css/swipebox.css">
 	<title>Verbo Estudio</title>
 </head>
 <body>
@@ -30,8 +30,8 @@
 				<span class="mail">info@verboestudio.com</span>
 			</div>
 			<div class="direccion espacio-arriba">
-				<span>+34 650635670</span>
 				<span>+34 609116386</span>
+				<span>+34 650635670</span>
 			</div>
 		</div>
 	</aside>
@@ -100,16 +100,31 @@
 			</figure>
 			<p>
 			El taller se compuso de tres fases: entender el lugar, diseñar la propuesta y llevar a cabo la actuación, además de observar, finalmente, la apropiación del espacio por parte de los vecinos del barrio del Rabal. En tres días se desarrollaron todos los puntos expuestos en conjunto con los participantes y vecinos, finalizando con la inauguración de la plaza mediante un improvisado partido de "futbito" con gran afluencia de participantes y donde la actuación se erigió como el mejor de los campos de juego.
-			</p>	
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/brochas/20150730_203526_Verbo.JPG"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/brochas/IMG_1047.JPG"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/brochas/150726_174909_Lluís-min.JPG"/>
-			</figure>	
+			</p>
+			<div class="container-foto-min">	
+				<figure>
+					<a href="../../img/proyectos/brochas/20150730_203526_Verbo.JPG" class="diapositiva">
+					<img class="foto-min" src="../../img/proyectos/brochas/20150730_203526_Verbo.JPG"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/brochas/IMG_1047.JPG" class="diapositiva">
+					<img class="foto-min-der" src="../../img/proyectos/brochas/IMG_1047.JPG"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/brochas/150726_174909_Lluís-min.JPG" class="diapositiva">
+					<img class="foto-min-center" src="../../img/proyectos/brochas/150726_174909_Lluís-min.JPG"/>
+					</a>
+				</figure>
+			</div>
 		</section>
 	</div>
+	<script type="text/javascript">
+		;( function( $ ) {
+
+			$( '.diapositiva' ).swipebox();
+
+		} )( jQuery );
+	</script>
 </body>

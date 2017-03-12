@@ -55,7 +55,7 @@ nav ul li a{
 	font-size: 0.6em !important;
 }
 .grande{
-	font-size: 0.8em !important;
+	font-size: 0.7em !important;
 }
 
 
@@ -167,12 +167,17 @@ nav.navegacion {
 .titulo-pagina {
 	font-weight: bold;
 	margin-top: 40px;
+	font-size: 2em;
+	width: 80%;
+	margin-left: 10%;
 }
 
 .subtitulo-pagina {
-	font-size: 1.2em;
+	font-size: 1em;
 	margin-top: 10px;
 	margin-bottom: 20px;
+	width: 80%;
+	margin-left: 10%;
 }
 
 .main-photo {

@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../../css/proyectos.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-	<script type="application/javascript" src="js/main.js"></script>
+	<script src="../../lib/jquery-2.1.0.min.js"></script>	
+	<script src="../../src/js/jquery.swipebox.js"></script>
+	<link rel="stylesheet" href="../../src/css/swipebox.css">
 	<title>Verbo Estudio</title>
 </head>
 <body>
@@ -30,8 +30,8 @@
 				<span class="mail">info@verboestudio.com</span>
 			</div>
 			<div class="direccion espacio-arriba">
-				<span>+34 650635670</span>
 				<span>+34 609116386</span>
+				<span>+34 650635670</span>
 			</div>
 		</div>
 	</aside>
@@ -106,13 +106,25 @@
 			<p>
 				Además de esta obtención documental, se provoca una participación e interactuación de las personas con el dispositivio que provoca una información sobre la temática y una pertenencia y sensibilización hacia la misma. Posibles frases como: ¿Crees que existe igualdad en el mundo del arte? (ejemplo rápido) y grafiar en la parte de atrás con datos oficiales que muestren las verdaderas estadísticas. Una vez apropaba la propuesta se realizará la búsqueda de datos y la concreción de las preguntas junto con la organización.
 			</p>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/empate/02-min.jpg"/>
-			</figure>
-	
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/empate/07-min.jpg"/>
-			</figure>
+			<div class="container-foto-min">
+				<figure>
+					<a href="../../img/proyectos/empate/02-min.jpg" class="diapositiva">
+					<img class="foto-min" src="../../img/proyectos/empate/02-min.jpg"/>
+					</a>
+				</figure>		
+				<figure>
+					<a href="../../img/proyectos/empate/07-min.jpg" class="diapositiva">
+					<img class="foto-min-der" src="../../img/proyectos/empate/07-min.jpg"/>
+					</a>
+				</figure>
+			</div>
 		</section>
 	</div>
+	<script type="text/javascript">
+		;( function( $ ) {
+
+			$( '.diapositiva' ).swipebox();
+
+		} )( jQuery );
+	</script>
 </body>

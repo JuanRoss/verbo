@@ -6,9 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../../css/proyectos.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
-	<script type="application/javascript" src="js/main.js"></script>
+	<script src="../../lib/jquery-2.1.0.min.js"></script>	
+	<script src="../../src/js/jquery.swipebox.js"></script>
+	<link rel="stylesheet" href="../../src/css/swipebox.css">
 	<title>Verbo Estudio</title>
 </head>
 <body>
@@ -30,8 +30,8 @@
 				<span class="mail">info@verboestudio.com</span>
 			</div>
 			<div class="direccion espacio-arriba">
-				<span>+34 650635670</span>
 				<span>+34 609116386</span>
+				<span>+34 650635670</span>
 			</div>
 		</div>
 	</aside>
@@ -104,21 +104,39 @@
 			<p>
 			CITYING Urban Players, propone desarrollar de nuevo la imaginación de los niños a través de su comprensión de los procesos urbanos que se dan en las ciudad e involucrarlos en la conformación de la misma.
 			</p>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/citying/EXPO CITYING urban players16-min.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/citying/EXPO CITYING urban players43-min.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/citying/EXPO CITYING urban players41-min.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/citying/EXPO CITYING urban players42-min.jpg"/>
-			</figure>
-			<figure>
-				<img class="foto-min" src="../../img/proyectos/citying/EXPO CITYING urban players-min.jpg"/>
-			</figure>
+			<div class="container-foto-min">
+				<figure>
+					<a href="../../img/proyectos/citying/EXPO CITYING urban players16-min.jpg" class="diapositiva">
+					<img class="foto-min borde" src="../../img/proyectos/citying/EXPO CITYING urban players16-min.jpg"/>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/citying/EXPO CITYING urban players43-min.jpg" class="diapositiva">
+					<img class="foto-min-der borde" src="../../img/proyectos/citying/EXPO CITYING urban players43-min.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/citying/EXPO CITYING urban players41-min.jpg" class="diapositiva">
+					<img class="foto-min borde" src="../../img/proyectos/citying/EXPO CITYING urban players41-min.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/citying/EXPO CITYING urban players42-min.jpg" class="diapositiva">
+					<img class="foto-min-der borde" src="../../img/proyectos/citying/EXPO CITYING urban players42-min.jpg"/>
+					</a>
+				</figure>
+				<figure>
+					<a href="../../img/proyectos/citying/EXPO CITYING urban players-min.jpg" class="diapositiva">
+					<img class="foto-min-center borde" src="../../img/proyectos/citying/EXPO CITYING urban players-min.jpg"/>
+					</a>				
+				</figure>
+			</div>
 		</section>
 	</div>
+	<script type="text/javascript">
+		;( function( $ ) {
+
+			$( '.diapositiva' ).swipebox();
+
+		} )( jQuery );
+	</script>
 </body>
