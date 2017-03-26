@@ -10,6 +10,13 @@ hr {
 
 .exposiciones {
 	padding-left: 15px;
+	display: inline-block;
+	float: left;
+}
+
+.float-right {
+	float: right !important;
+	padding-right: 15px;
 }
 
 .exposiciones h1 {
@@ -21,14 +28,32 @@ hr {
 	display: block;
 }
 
-.exposiciones a {
-	font-weight: bold;
-}
 
 .exposiciones p {
 	padding-top: 10px;
 }
 
+.exposiciones h1 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
 .autor {
+	font-weight: bold;
+}
+
+.fecha {
 	font-style: italic;
+}
+
+.pie-foto {
+	display: block;
+
+	float: right;
+}
+
+.texto-pie-foto {
+	clear: both;
+	margin-top: 60px;
+	font-size: 1.4em;
 }

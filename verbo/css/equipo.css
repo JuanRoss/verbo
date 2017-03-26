@@ -7,6 +7,10 @@
 	margin: 0 100px 0 95px;
 }
 
+figcaption {
+    margin-top: 10px;
+}
+
 figcaption span {
 	display: block;
 	font-size: 0.8em;

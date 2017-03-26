@@ -5,6 +5,7 @@
 	src: url(../fuentes/GOTHAM-BOOK.OTF) format('opentype');
 }
 
+
 @font-face {
 	font-family: 'Minion-pro';
 	font-style: italic;
@@ -41,7 +42,11 @@ nav ul li a{
 }
 
 .negrita {
-	font-weight: bold;
+	font-weight: bolder;
+}
+
+.cursiva {
+	font-style: italic;
 }
 
 .borde {
@@ -160,8 +165,8 @@ nav.navegacion {
 }
 
 .social li img {
-	height: 70%;
-	width: 70%;
+	height: 65%;
+	width: 65%;
 }
 
 .titulo-pagina {
@@ -190,10 +195,18 @@ nav.navegacion {
 	height: 100%;
 }
 
+.principal {
+	width: 80%;
+	height: 80%;
+	display: block;
+	margin: 30px auto;
+}
+
 .principal p {
 	text-align: center;
 	font-size: 1.3em;
-	padding: 30px 0px 15px 15px;	
+	padding: 30px 0px 15px 15px;
+
 }
 
 .fixed {
@@ -203,4 +216,9 @@ nav.navegacion {
     left: 50%;
     top: 0%;
     transform: translateX(-50%);*/
+}
+
+.container-no-principal {
+	width: 80%;
+	margin-left: 10%;
 }
