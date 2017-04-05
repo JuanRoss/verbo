@@ -56,6 +56,10 @@ nav ul li a{
 .pequeño{
 	font-size: 0.35em !important;
 }
+
+.pequeño-mediano {
+	font-size: 0.45em !important;
+}
 .mediano{
 	font-size: 0.6em !important;
 }
